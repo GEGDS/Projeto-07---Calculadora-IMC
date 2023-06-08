@@ -1,0 +1,85 @@
+:root {
+    --color-1: #30400E;
+    --color-2: #798C35;
+    --color-3: #BCBF60;
+    --color-4: #F2ECCE;
+    --color-5: #BF9B6F;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+
+/* Configurações Header*/
+header {
+    background-color: var(--color-1);
+    color: var(--color-4);
+    height: 100px;
+    padding-top: 50px;
+}
+
+header h1{
+    font-weight: bolder;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+/* Configurações Main*/
+main {
+    background-color: var(--color-2);
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.container label {
+    color: var(--color-4);
+}
+
+.container label,
+.container input[type="number"] {
+    font-size: 1.4em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container input[type="submit"] {
+    font-size: 1.2em;
+    font-weight:600;
+}
+
+#result {
+    color: var(--color-4);
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+/* Configurações Footer*/
+footer {
+    background-color: var(--color-5);
+    color: var(--color-1);
+    height: 60px;
+    padding-top: 40px;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+}

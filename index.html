@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora IMC</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <form id="formIMC">
+                <label for="idade">Idade:</label>
+                <input class="iIdade" type="number" id="idade" name="idade" min="0" max="120" " required>
+
+                <label for="altura">Altura (cm):</label>
+                <input class="iAltura" type="number" id="altura" name="altura" min="0" max="300" step="0.01" required>
+        
+        
+                <label for="peso">Peso:</label>
+                <input class="iPeso" type="number" id="peso" name="peso" min="0" max="500" required>
+
+        
+                <buton><input type="submit" value="Calcular"></buton>
+
+                <p id="result"></p>
+            </form>
+        
+        </div>
+    </main>
+
+    <footer>
+        <p>Feito por &copy;<a href="https://github.com/GEGDS" target="_blank">Gegds</a></p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
